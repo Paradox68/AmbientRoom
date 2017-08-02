@@ -10,13 +10,13 @@
     background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
 }
 #chat-messages {
-    background: linear-gradient(to bottom,#2874A6 0,#17202A 60%) !important;
+    background: linear-gradient(to bottom,#2874A6 0,#17202A 20%) !important;
 }
 #now-playing-bar {
     background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
 }
 #chat {
-    background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
+    background: linear-gradient(to bottom,#2874A6 0,#17202A 60%) !important;
 }
 #rcs-appright-button {
     background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
@@ -124,6 +124,9 @@ background-color: rgba(0, 0, 80, 0.82);
     -o-animation:fadein 0.6s;
     animation:fadein 0.6s;
 }
+#chat .welcome {
+    color: rgba(0, 193, 249, 0.99) !important;
+}
 #chat .mention {
 background-color: rgba(60, 0, 80, 0.32);
     font-weight: 700;
@@ -143,7 +146,7 @@ background-color: rgba(60, 0, 80, 0.32);
 #chat .emote .text {
     font-style: normal;
     font-weight: bold;
-    color: #ac76ff;
+    color: rgba(0, 193, 249, 0.99) !important;
 }
 #footer {
     background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
