@@ -267,7 +267,7 @@
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
@@ -286,17 +286,17 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 12,
             autodisable: false,
-            commandCooldown: 30,
+            commandCooldown: 2,
             usercommandsEnabled: true,
-            thorCommand: false,
+            thorCommand: true,
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
-                ['theme', 'This song does not fit the room theme. '],
-                ['op', 'This song is on the OP list. '],
-                ['history', 'This song is in the history. '],
+                ['theme', 'This song is not as chill as we want it to be. '],
+                ['op', 'This song is played way too often. '],
+                ['history', 'This song was recently played. '],
                 ['mix', 'You played a mix, which is against the rules. '],
                 ['sound', 'The song you played had bad sound quality or no sound. '],
                 ['nsfw', 'The song you contained was NSFW (image or sound). '],
@@ -307,7 +307,7 @@
             motdEnabled: false,
             motdInterval: 5,
             motd: 'Temporary Message of the Day',
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
@@ -3193,6 +3193,20 @@
                     }
                 }
             },
+         
+            fuckYouCommand: {
+                command: 'fuckyou',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat("https://media3.giphy.com/media/l0IyjB63VEQ2GuTYI/giphy.gif");
+                    }
+                }
+            },
+         
 
             refreshCommand: {
                 command: 'refresh',
