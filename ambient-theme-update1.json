@@ -2,7 +2,7 @@
     "room":                     "Bass Music Network",
     "author":                   "Paradox",
     "icon":                     "http://i.imgur.com/lKCLG1f.png",
-    "css":                      "https://rawgit.com/Paradox68/bassmusicnetworkplug/master/theme.css",
+    "css":                      "https://cdn.rawgit.com/Paradox68/AmbientRoom/2379e1c7/css-styling.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
