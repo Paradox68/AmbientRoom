@@ -244,17 +244,17 @@
     };
 
     var botCreator = 'Yemasthui';
-    var botMaintainer = 'Benzi'
-    var botCreatorIDs = ['3851534', '4105209'];
+    var botMaintainer = 'Paradox VII'
+    var botCreatorIDs = ['3995934', '4105209'];
 
     var basicBot = {
-        version: '2.10.0',
+        version: '1.0.1',
         status: false,
         name: 'Chill Bot',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
+        chatLink: 'https://rawgit.com/Paradox68/AmbientRoom/master/chat.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -996,7 +996,7 @@
             if (typeof lastplay === 'undefined') return;
             if (basicBot.settings.songstats) {
                 if (typeof basicBot.chat.songstatistics === 'undefined') {
-                    API.sendChat('/me ' + lastplay.media.author + ' - ' + lastplay.media.title + ': :woot:' + lastplay.score.positive + ' :grab:' + lastplay.score.grabs + ' :meh:' + lastplay.score.negative + 'M.')
+                    API.sendChat('/me ' + lastplay.media.author + ' - ' + lastplay.media.title + ': :woot:' + lastplay.score.positive + ' :grab:' + lastplay.score.grabs + ' :meh:' + lastplay.score.negative + '')
                 } else {
                     API.sendChat(subChat(basicBot.chat.songstatistics, {
                         artist: lastplay.media.author,
