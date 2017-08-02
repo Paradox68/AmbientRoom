@@ -252,7 +252,7 @@
         status: false,
         name: 'Chill Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        scriptLink: 'https://cdn.rawgit.com/Paradox68/AmbientRoom/d230f963/abU-3.js',
         cmdLink: 'http://git.io/245Ppg',
         chatLink: 'https://rawgit.com/Paradox68/AmbientRoom/master/chat.json',
         chat: null,
@@ -263,7 +263,7 @@
             botName: 'Chill Bot',
             language: 'english',
             chatLink: 'https://rawgit.com/Paradox68/AmbientRoom/master/chat.json',
-            scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+            scriptLink: 'https://cdn.rawgit.com/Paradox68/AmbientRoom/d230f963/abU-3.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
