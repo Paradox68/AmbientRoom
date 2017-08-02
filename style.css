@@ -137,7 +137,7 @@ background-color: rgba(60, 0, 80, 0.32);
      color: #ac76ff !important;
 }
 #chat .emote {
-    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+     border-left: rgba(0, 160, 210, 1) 3px solid !important;
     background-color: rgba(76, 93, 119, 0.22) !important;
 }
 #chat-messages .emote .icon {
