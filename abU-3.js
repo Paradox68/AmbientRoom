@@ -248,7 +248,7 @@
     var botCreatorIDs = ['3995934', '4105209'];
 
     var basicBot = {
-        version: '1.0.1',
+        version: '1.0.2',
         status: false,
         name: 'Chill Bot',
         loggedInID: null,
