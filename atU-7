@@ -2,7 +2,7 @@
     "room":                     "Ambient Chill Room",
     "author":                   "Paradox",
     "icon":                     "http://i.imgur.com/lKCLG1f.png",
-    "css":                      "https://cdn.rawgit.com/Paradox68/AmbientRoom/50e006ac/style.css",
+    "css":                      "https://cdn.rawgit.com/Paradox68/AmbientRoom/2b23d6a5/styles.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
