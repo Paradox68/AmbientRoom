@@ -262,7 +262,7 @@
         settings: {
             botName: 'Chill Bot',
             language: 'english',
-            chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
+            chatLink: 'https://rawgit.com/Paradox68/AmbientRoom/master/chat.json',
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
