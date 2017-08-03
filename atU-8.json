@@ -1,7 +1,7 @@
 {
     "room":                     "Ambient Chill Room",
     "author":                   "Paradox",
-    "icon":                     "http://i.imgur.com/lKCLG1f.png",
+    "icon":                     "http://i.imgur.com/4tTlS3C.png",
     "css":                      "https://cdn.rawgit.com/Paradox68/AmbientRoom/2b23d6a5/styles.css",
     "rules": {
         "allowAutorespond":     true,
@@ -27,7 +27,7 @@
         "user":                 "#787878"
     },
     "images": {
-        "background":           "http://i.imgur.com/YG3HS67.png",
+        "background":           "http://i.imgur.com/m6Fr1r4.png",
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
