@@ -3,6 +3,12 @@
     width: 500% !important;
     height: 500% !important;
 }
+#chat .from.staff .un {
+    color: rgba(0, 200, 220, 1) !important;
+}
+#chat .moderation {
+   color: rgba(0, 200, 220, 0.8) !important;
+}
 #app-menu {
     background: linear-gradient(to bottom,#2874A6 0,#17202A 70%) !important;
 }
